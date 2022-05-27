@@ -14,13 +14,16 @@
         "email": "martin@kozianka.de",
         "homepage": "http://kozianka.de",
         "role": "Developer"
+    }, {
+        "name": "Lucas Rech",
+        "email": "reluem@icloud.com"
     }],
     "require": {
         "contao/core-bundle": "~3.5 || ~4.4",
         "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
     },
     "replace": {
-        "martin-kozianka/contao-timetags"
+        "martin-kozianka/contao-timetags": "^1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
