@@ -1,0 +1,34 @@
+{
+    "name": "reluem/contao-timetags",
+    "description": "Inserttags for contao {{timesince::OPTIONS}}, {{countdown::OPTIONS}},{{countdown_days::OPTIONS}}",
+    "keywords": [
+        "timetags",
+        "contao",
+        "countdown",
+        "timesince"
+    ],
+    "type": "contao-module",
+    "license": "LGPL-3.0+",
+    "authors": [{
+        "name": "Martin Kozianka",
+        "email": "martin@kozianka.de",
+        "homepage": "http://kozianka.de",
+        "role": "Developer"
+    }],
+    "require": {
+        "contao/core-bundle": "~3.5 || ~4.4",
+        "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
+    },
+    "replace": {
+        "martin-kozianka/contao-timetags"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "contao": {
+            "sources": {
+                "contao": "system/modules/timetags"
+            }
+        }
+    }
+}
